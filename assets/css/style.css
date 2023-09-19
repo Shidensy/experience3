@@ -126,11 +126,12 @@ h1, h2, h3, h4, h5, h6 {
 /* Memory */
 
 .memory {
-    background-color: #232323;
     padding: 45px;
-    background: url(/assets/img/memory/memory.jpg) center no-repeat;
-    -webkit-background-size: cover;
+    background-color: #232323;
+    background-image: url(/assets/img/memory/memory.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .memory_inner {
@@ -165,12 +166,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Works */
 
 .works {
-    background-color: #e9e7e7;
     padding-top: 150px;
     padding-bottom: 80px;
-    background: url(/assets/img/works/workbg.jpg) center no-repeat;
-    -webkit-background-size: cover;
+    background-color: #e9e7e7;
+    background-image: url(/assets/img/works/workbg.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card {
@@ -208,9 +210,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .places {
     background-color: #e9e7e7;
-    background: url(/assets/img/places/placesbg.jpg) center no-repeat;
-    -webkit-background-size: cover;
+    background-image: url(/assets/img/places/placesbg.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,9 +342,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .choose {
     background-color: #232323;
-    background: url(/assets/img/choose/choosebg.jpg) center no-repeat;
-    -webkit-background-size: cover;
+    background-image: url(/assets/img/choose/choosebg.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-bottom: 150px;
     padding-top: 80px;
 }
@@ -430,9 +434,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .reviews {
     background-color: #e9e7e7;
-    background: url(/assets/img/reviews/reviewsbg.jpg) center no-repeat;
-    -webkit-background-size: cover;
+    background-image: url(/assets/img/reviews/);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 200px 0;
     position: relative;
 }
@@ -563,10 +568,11 @@ h1, h2, h3, h4, h5, h6 {
 /* footer */
 
 .footer {
-    background-color: #e9e7e7;
-    background: url(/assets/img/footer/footerbg.jpg) center no-repeat;
-    -webkit-background-size: cover;
+    background-color: #c4c4c4;
+    background-image: url(/assets/img/footer/footerbg.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 110px 0;
 }
 
